@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="sk" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfólio">
+    <meta name="author" content="Adam Lenčo">
+    <meta name="keywords" content="html, CSS, portfólio, značkovací jazyk">
+    <title>Adameskum</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" href="./obrazky/web_icon.jpg">
+</head>
+
+<body>
+
+<header>
+    <div class="content">
+        <a href="#about">O MNE</a>
+        <a href="#banner">ŠTÚDIUM</a>
+        <a href="#boxes">CERTIFIKÁTY</a>
+        <a href="#additional">KONTAKT</a>
+    </div>
+</header>
+
+<section id="about">
+    <div class="content">
+        <img src="./obrazky/domov_ikon.jpg" alt="Moja fotka">
+        <div class="text">
+            <h2>O mne</h2>
+            <p>Volám sa Adam Lenčo a som študentom na Strednej odbornej škole informačných technológií v Banskej Bystrici...</p>
+
+            <!-- Pridané video -->
+            <video width="600" controls>
+                <source src="./7102266-hd_1920_1080_30fps.mp4" type="video/mp4">
+                Váš prehliadač nepodporuje prehrávanie videa.
+            </video>
+        </div>
+    </div>
+</section>
+
+
+<section id="banner">
+    <div class="content">
+        <h1>ŠKOLY</h1>
+        <ul>
+            <li><strong>Základná škola:</strong> Základná škola Jaroslava Simana</li>
+            <li><strong>Stredná škola:</strong> SOŠ IT, Banská Bystrica</li>
+            <li><strong>Vysoká škola:</strong> Možno raz nejaká bude</li>
+        </ul>
+
+        <img src="./obrazky/unnamed.jpg" alt="Škola" class="skola-obrazok">
+    </div>
+</section>
+
+<section id="boxes">
+    <div class="box">
+        <h3>CCNA 1</h3>
+        <p>Snáď tento šk. rok</p>
+    </div>
+    <div class="box">
+        <h3>CCNA 2</h3>
+        <p>Snáď tento šk. rok</p>
+    </div>
+    <div class="box">
+        <h3>CCNA 3</h3>
+        <p>Snáď budúci šk. rok</p>
+    </div>
+</section>
+
+<section id="additional">
+    <div class="content">
+        <h2>Kontakt</h2>
+        <p><strong>Telefón:</strong> +421 123 456 789</p>
+        <p><strong>Email:</strong> pl.azmont@gmail.com</p>
+        <p><strong>Adresa:</strong> Ulica 123, Mesto, Slovensko</p>
+
+
+        <form action="mailto:pl.azmont@gmail.com" method="post" enctype="text/plain">
+            <label for="meno">Meno:</label>
+            <input type="text" id="meno" name="meno" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="sprava">Správa:</label><br>
+            <textarea id="sprava" name="sprava" rows="4" required></textarea><br>
+
+            <input type="submit" value="Odoslať">
+        </form>
+    </div>
+</section>
+
+<footer>
+    © 2025 Adam Lenčo. Všetky práva vyhradené.
+</footer>
+
+</body>
+</html>
